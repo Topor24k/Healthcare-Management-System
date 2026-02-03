@@ -1,0 +1,89 @@
+.about {
+  background: linear-gradient(135deg, var(--pearl) 0%, var(--ivory) 48%, var(--pearl) 100%);
+  padding: 100px 0;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.founder-section {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid rgba(201, 169, 97, 0.2);
+}
+
+.founder-label {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--sage);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.founder-name {
+  font-family: var(--font-heading);
+  font-size: 44px;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.founder-role {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--burgundy);
+}
+
+.about-content {
+  text-align: center;
+}
+
+.about-title {
+  font-family: var(--font-heading);
+  font-size: 44px;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 2.5rem;
+}
+
+.about-text {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-text p {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--charcoal);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.about-text em {
+  color: var(--burgundy);
+  font-style: italic;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .founder-name {
+    font-size: 36px;
+  }
+
+  .about-title {
+    font-size: 36px;
+  }
+
+  .about-text p {
+    font-size: 14px;
+  }
+}
